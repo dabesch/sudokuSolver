@@ -95,11 +95,11 @@ def solve(grid):
 class Sudoku:
     def getBox(self, row, col):
         """Applies function as method"""
-        getBox(self.grid, row, col)
+        return getBox(self.grid, row, col)
 
     def getDetails(self, row, col):
         """Applies function as method"""
-        getDetails(self.grid, row, col)
+        return getDetails(self.grid, row, col)
 
     def update(self, row, col, value):
         """
